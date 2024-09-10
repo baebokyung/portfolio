@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ededed;
+}
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  color: #cfcece;
+  width: 100%;
+  height: 60px;
+  background-color: #414141;
+  z-index: 1;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.sidebar {
+  position: fixed;
+  padding-top: 60px;
+  padding-left: 30px;
+  width: 240px;
+  height: 100%;
+  gap top;
+  color: #cfcece;
+  background-color: #414141;
+  a {
+    color: #cfcece; /* 기본 링크 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+  }
+  a:visited {
+    color: ; /* 방문한 링크도 동일한 색상 */
+  }
+  a:active {
+    color: ; /* 클릭할 때도 동일한 색상 */
+  }
+}
+.bodywrap {
+  position: relative;
+  margin-left: 240px;
+  width: calc(100% - 240px);
+}
+.home-wrap {
+  font-family: "Nanum Barun Gothic", sans-serif;
+}
+/* .sidebar-icon {
+  position: absolute;
+  top: 96px;
+  left: 40px;
+  display: flex;
+  flex-direction: column; /* 수직 방향으로 정렬 */
+  /* gap: 16px;
+} */ 
+
+.profile-wrap{
+  position: relative;
+  background-color: #ededed;
+}
+#myContents{
+  padding-left: 15px;
+  font-size: 15px;
+  font-family: "Nanum Barun Gothic", sans-serif;
+}
+li{
+  position: relative;
+  width: 180px;
+  height: 32px;
+  padding-left: 15px;
+  gap: 16px;
+  font-size: 15px;
+  font-family: "Nanum Barun Gothic", sans-serif;
+  display: flex;
+  align-items: center;
+}
+li:first-child{
+  margin-top: 7px;
+}
+li:hover {
+  background-color: #366248; /* 마우스를 올렸을 때도 동일한 색상 */
+  border-radius: 8px;
+}
+
+/* 첫화면 배경 이미지 */
+#img-pen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 비율을 유지하면서 화면에 꽉 채움 */
+}
+#img-name {
+  position: absolute;
+  top: 350px;
+  left: 900px;
+}
+
+#profile-text {
+  position: absolute;
+  top: 335px;
+  left: 1127px;
+  font-size: 75px;
+  letter-spacing: -8px;
+  font-weight: lighter;
+  color: #414141;
+}
+
+#hi {
+  position: absolute;
+  top: 480px;
+  left: 1340px;
+  font-size: 26px;
+  letter-spacing: -1px;
+  color: #505050;
+  font-weight: lighter;
+}
+#left-menu {
+  position: absolute;
+  top: 518px;
+  left: 1005px;
+  font-size: 26px;
+  letter-spacing: -1px;
+
+  color: #366248;
+}
+#want {
+  position: absolute;
+  top: 518px;
+  left: 1110px;
+  font-size: 26px;
+  letter-spacing: -1px;
+  color: #505050;
+  font-weight: lighter;
+}
+.info {
+  position: absolute;
+  top: 690px;
+  left: 1250px;
+  line-height: 32px;
+  font-size: 16px;
+  color: #505050;
+  font-family: "Nanum Barun Gothic", sans-serif;
+}
+.info-img {
+  position: absolute;
+  left: -40px;
+  color: #505050;
+}
+/* .line1-1{
+  padding-top: 100px;
+} */
+ /* #photo{
+  position: relative;
+  width: 160px;
+  border-radius: 50px;
+ } */
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
