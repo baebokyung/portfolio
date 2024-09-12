@@ -1,4 +1,4 @@
-[포트폴리오 사이트 바로가기](portfolio-baebokyung.vercel.app)<div align= "center">
+[포트폴리오 사이트 바로가기](http://portfolio-baebokyung.vercel.app)<div align= "center">
 <img src="https://capsule-render.vercel.app/api?type=rounded&color=auto&height=180&text=안녕하세요%20반갑습니다&animation=fadeIn&fontColor=f7f7f7&fontSize=50" />
 
 </div>
