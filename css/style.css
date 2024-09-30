@@ -95,14 +95,18 @@ color: #ededed;
 .home-wrap {
   font-family: "Nanum Barun Gothic", sans-serif;
 }
-/* .sidebar-icon {
-  position: absolute;
-  top: 96px;
-  left: 40px;
-  display: flex;
-  flex-direction: column; /* 수직 방향으로 정렬 */
-  /* gap: 16px;
-} */ 
+
+#home{
+  position: relative;
+  width: 100%;
+  height: 1100px;
+}
+#profile{
+  position: relative;
+  width: 100%;
+  height: 2100px;
+}
+
 
 .profile-wrap{
   position: relative;
@@ -134,106 +138,174 @@ li:hover {
 }
 
 /* 첫화면 배경 이미지 */
-#img-pen {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* 비율을 유지하면서 화면에 꽉 채움 */
-}
-#img-name {
-  position: absolute;
-  top: 350px;
-  left: 900px;
-}
-
-#profile-text {
-  position: absolute;
-  top: 335px;
-  left: 1127px;
-  font-size: 75px;
-  letter-spacing: -8px;
-  font-weight: lighter;
-  color: #414141;
-}
-
-#hi {
-  position: absolute;
-  top: 480px;
-  left: 1320px;
-  font-size: 26px;
-  letter-spacing: -1px;
-  color: #505050;
-  font-weight: lighter;
-}
-#left-menu {
-  position: absolute;
-  top: 518px;
-  left: 990px;
-  font-size: 26px;
-  letter-spacing: -1px;
-
-  color: #366248;
-}
-#want {
-  position: absolute;
-  top: 518px;
-  left: 1098px;
-  font-size: 26px;
-  letter-spacing: -1px;
-  color: #505050;
-  font-weight: lighter;
-}
-.info {
-  position: absolute;
-  top: 690px;
-  left: 1250px;
-  line-height: 32px;
-  font-size: 16px;
-  color: #505050;
-  font-family: "Nanum Barun Gothic", sans-serif;
-}
-.info-img {
-  position: absolute;
-  display: ;
-  left: -40px;
-  color: #505050;
-}
-/* .line1-1{
-  padding-top: 100px;
-} */
- /* #photo{
+/* 메인 첫째줄 텍스트 */
+.page1{
   position: relative;
-  width: 160px;
-  border-radius: 50px;
- } */
+  display: contents;
+}
+.line-1{
+  position: relative;
+  display: flex;
+  margin-top: 85px;
+  margin-bottom: 5px;
+  margin-right: 120px;
+  align-items: center;
+  float: right;
+}
+.name{
+  position: relative;
+  line-height: 10px;
+}
+.text{
+  position: relative;
+  margin-left: 13px;
+  font-size: 45px;
+  font-family: "Nanum Barun Gothic", sans-serif;
+  letter-spacing: -4px;
+  font-weight: lighter;
+  color: #707070;
+  text-align: center;
+}
+#line-1-port{}
+
+/* 메인 사진 영역 */
+.line-2{
+  position: relative;
+  margin-left: 90px;
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center; 
+  align-items: center;
+
+}
+#mainimg{
+  position: relative;
+  width: 1480px;
+  opacity: 85%;
+}
+
+/* 메인 하단 텍스트 */
+.line-3{
+  position: relative;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 25px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #555555;
+}
+#date{
+  margin-left: 10px;
+  font-size: 13px;
+  color: #9e9e9e;
+}
+
+
+
 section {
   position: relative;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
   background-color: #ededed;
 }
 
-/* section span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-} */
 /* 2 기본이력 */
-#photo{
-  margin-left: 1350px;
+.profile-wrap{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.page-2{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.part1{
+  position: relative;
+  display: flex;
+  padding-top: 100px;
+}
+.part1-title{
+  position: relative;
+  gap: 139px;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 0;
+  font-family: "Nanum Barun Gothic", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #727272;
+}
+.pro{
+  width: 191px;
+  height: 260px;
+  margin: 0 55px;
+}
+.license{
+  padding-top: 35px;
+  width: 239px;
+  height: 155px;
+  margin: 0 55px;
+}
+.activity{
+  width: 239px;
+  height: 533px;
+  margin: 0 55px;
+  padding-top: 260px;
+}
+.skill{
+  padding-top: 120px;
+  width: 239px;
+  height: 220px;
+  margin: 0;
+  text-align: right;
+}
+.part1-in{
+  position: relative;
+  font-family: "Nanum Barun Gothic", sans-serif;
+  font-size: 16px;
+  color: #555555;
+  line-height: 2;
+}
+.part1-in-1{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.pro2{}
+.photo1{
+position: relative;
+}
+#photo2{
+  border-radius: 20px;
+  width: 170px;
+  margin: 0;
+}
+.license2{
+  position: relative;
+  padding-top: 70px;
+}
+.activity2{
+  position: relative;
+  padding-top: 100px;
+}
+.skill2{
+  position: relative;
+  display: flex;
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center;     /* 세로 가운데 정렬 */
+  height: 100%; /* 화면 전체 높이 설정 */
+}
+.skill3{
+  position: relative;
   margin-top: 50px;
-  position: relative;
-  width: 200px;
-  border-radius: 150px;
+  display: flex;
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center;     /* 세로 가운데 정렬 */
+  height: 100%; /* 화면 전체 높이 설정 */
 }
-.history{
-  position: relative;
-  margin: 20px 50px;
-  font-size: 20px;
-}
-
 
 /* 3 콘텐츠 영역  */
 .contents-wrap{
@@ -243,7 +315,8 @@ section {
   position: relative;
   width: 100%;
   height: 170px;
-  padding: 30px 70px; 
+  padding: 30px 70px;
+  padding-top: 600px;
 }
 .category-box0{
   position: relative;
@@ -275,7 +348,7 @@ section {
   height: 27px;
   line-height: 26px;
   align-items: center;
-  background-color: #414141;
+  background-color: #366248;
   border-radius: 10px;
   font-size: 15px;
   font-family: "Nanum Barun Gothic", sans-serif;
@@ -287,13 +360,6 @@ section {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-.tag-box{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  gap: 200px;
-  padding: 5px;
-}
 .category-box1 span{
   position: relative;
   text-align: center;
@@ -302,66 +368,40 @@ section {
   color: #414141;
   font-family: "Nanum Barun Gothic", sans-serif;
 }
-.tag-box span{
-  position: relative;
-  border: 1px solid #366248;
-  border-radius: 6px;
-  font-size: 12px;
-  color: #366248;
-  padding: 0 5px;
-}
 .banner-bk{
 position: relative;
 width: 1680px;
 height: 424px;
+opacity: 85%;
 }
 .banner-bk2{
 position: relative;
 width: 100%;
 height: ;
 }
+.video-text1{
+  position: relative;
+  margin-top: 70px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  padding-top: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: #414141;
+  font-family: "Nanum Barun Gothic", sans-serif;
+}
 .video-box{
   width: 100%;
   height: 100%;
   position: relative;
   display: flex;
-  padding: 60px 90px;
+  padding: 0 80px 0 80px;
   gap: 35px;
 
 }
-/* .card-container {
-  position: relative;
-  width: 1000px;
-  height: 100%;
-  text-align: center;
-  justify-content: center;
-  ;
-  padding: 30px;
-  gap: 30px;
-} */
-/* .card {
-
-  width: 280px;
-  height: 340px;
-  background-color: #dbdbdb;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px;
-  text-align: center;
-  margin: 20px;
-  transition: transform 0.3s;
-}
-.card:hover {
-  transform: scale(1.03);
-}
-.thumbnail {
-  width: 100%;
-  border-radius: 4px;
-  object-fit: cover;
-} */
-
 #youtubeVideo {
-  border: 1px solid #555555;  /* 테두리 색상 및 두께 */
+  /* border: 1px solid #555555;  테두리 색상 및 두께 */
   border-radius: 10px;  /* 둥근 모서리 */
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);  /* 그림자 효과 */
   transition: transform 0.3s ease;  /* 애니메이션 */
@@ -369,5 +409,5 @@ height: ;
 
 #youtubeVideo:hover {
   transform: scale(1.03);  /* 마우스를 올렸을 때 확대 효과 */
-  border: 2px solid #366248;  /* 테두리 색상 및 두께 */
+  /* border: 2px solid #366248;  테두리 색상 및 두께 */
 }
