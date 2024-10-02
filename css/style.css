@@ -119,6 +119,11 @@ color: #ededed;
   width: 100%;
   height: 2100px;
 }
+#contents{
+  position: relative;
+  width: 100%;
+  height: 4300px;
+}
 
 
 .profile-wrap{
@@ -305,7 +310,7 @@ position: relative;
   text-indent: 20px;
   font-size: 14px;
 }
-p{
+.license2 p{
   text-indent: 20px;
   font-size: 14px;
 }
@@ -324,7 +329,7 @@ p{
 }
 .skill3{
   position: relative;
-  margin-top: 50px;
+  margin-top: 85px;
   display: flex;
   justify-content: center; /* 가로 가운데 정렬 */
   align-items: center;     /* 세로 가운데 정렬 */
@@ -338,9 +343,9 @@ p{
 .category-all{
   position: relative;
   width: 100%;
-  height: 170px;
+  height: 340px;
   padding: 30px 70px;
-  padding-top: 600px;
+  background-color: #e0e0e0;
 }
 .category-box0{
   position: relative;
@@ -388,14 +393,43 @@ p{
   position: relative;
   text-align: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 15px;
   color: #414141;
   font-family: "Nanum Barun Gothic", sans-serif;
 }
+.first{
+  position: relative;
+  padding-top: 5px;
+  padding-left: 100px;
+}
+.first-box{
+
+}
+.first-box p{
+  font-family: "Nanum Barun Gothic", sans-serif;
+  letter-spacing: -1.5px;
+  line-height: 1.8;
+  color: #366248;
+}
+.first-box span{
+font-weight: bold;
+font-size: 20px;
+line-height: 2.4;
+}
+#first1{
+  text-indent: 30px;
+}
+#first2{
+  text-indent: 30px;
+}
+#first3{
+  text-indent: 30px;
+}
+
 .banner-bk{
 position: relative;
 width: 1680px;
-height: 424px;
+height: 100%;
 opacity: 85%;
 }
 .banner-bk2{
@@ -408,12 +442,16 @@ height: ;
   margin-top: 70px;
   margin-left: 90px;
   margin-bottom: 30px;
-  padding-top: 100px;
+  padding-top: 70px;
   font-size: 23px;
-  font-weight: bold;
   letter-spacing: -2px;
   color: #585858;
   font-family: sans-serif;
+}
+.video-text1 span{
+  font-size: 16px;
+  letter-spacing: 0px;
+  padding-left: 10px;
 }
 .video-box{
   width: 100%;
@@ -422,7 +460,9 @@ height: ;
   display: flex;
   padding: 0 80px 0 80px;
   gap: 35px;
-
+}
+#videoDescription{
+  padding-top: 7px;
 }
 #youtubeVideo {
   /* border: 1px solid #555555;  테두리 색상 및 두께 */
