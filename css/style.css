@@ -374,7 +374,7 @@ position: relative;
 .category-button{
   position: relative;
   width: 79px;
-  height: 27px;
+  height: 30px;
   line-height: 26px;
   align-items: center;
   background-color: #366248;
@@ -387,7 +387,7 @@ position: relative;
   position: relative;
   padding-left: 5px;
   margin-top: 15px;
-  margin-bottom: 5px;
+
 }
 .category-box1 span{
   position: relative;
@@ -399,12 +399,12 @@ position: relative;
 }
 .first{
   position: relative;
-  padding-top: 5px;
+
   padding-left: 100px;
 }
 .first-box{
-
 }
+
 .first-box p{
   font-family: "Nanum Barun Gothic", sans-serif;
   letter-spacing: -1.5px;
